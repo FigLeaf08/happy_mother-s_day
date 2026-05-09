@@ -1,0 +1,184 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Floating Hearts -->
+    <div class="hearts"></div>
+
+    <!-- Music Button -->
+    <button id="musicBtn">🎵 Reproducir Musica</button>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Para Mi Cafecito ❤️</h1>
+        <p>
+          Una colección de mis pensamientos, sentimientos y pequeños pedazos de
+          mi corazón escritos especialmente para ti. Sé que ya los has leído
+          antes, pero son un pequeño recordatorio de que todavía siento lo mismo
+          por ti. Te amo.
+        </p>
+
+        <a href="#letter" class="btn">Lee mi corazon</a>
+      </div>
+    </section>
+
+    <!-- Love Letter -->
+    <section id="letter" class="letter-section">
+      <div class="letter-card">
+        <h2>Feliz día de las Madres</h2>
+
+        <div class="letter-text">
+          <p>Mi dulce Cafecito,</p>
+
+          <p>
+            Con todo el universo a mi lado, hoy te digo que eres la mejor madre
+            del mundo. Eres esa madre que todo niño quisiera tener. Eres muy
+            tierna y amorosa y sabes como amar de una manera tan excepcional.
+            Eres mi bendicion. Mas de lo que pedí, Mas de lo que merezco, Mas de
+            lo que soñé! Con todo mi corazón te deseo un muy feliz día de las
+            madres!
+          </p>
+          <p>
+            Aquí he hecho una recopilación de algunos de los pequeños
+            pensamientos y sentimientos que he escrito sobre ti — momentos en
+            los que te extrañé, te aprecié, te admiré o simplemente me sentí
+            agradecido de que seas parte de mi vida.
+          </p>
+
+          <p>
+            Cada palabra ha sido inspirada por un profundo sentimiento en mi
+            corazón. Haces que mi vida sea más brillante, más tranquila, más
+            feliz y más significativa de lo que jamás imaginé posible.
+          </p>
+
+          <p>
+            Gracias por tu amor, tu paciencia, tu bondad y por ser la persona
+            con la que puedo reír, soñar y crecer.
+          </p>
+
+          <p>
+            No importa a dónde nos lleve la vida, mi corazón siempre te elegirá
+            a ti.
+          </p>
+
+          <p class="signature">Tu Atolito ❤️</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Phrases Section -->
+    <section class="phrases-section">
+      <h2>31 Frases de Amor</h2>
+
+      <div class="phrases-container" id="phrasesContainer">
+        <!-- JavaScript Inserts Cards -->
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <h2>Nuestros lindos Recuerdos ❤️</h2>
+
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="images/photo1.jpg" alt="Memory 1" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo2.jpg" alt="Memory 2" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo3.jpg" alt="Memory 3" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo4.jpg" alt="Memory 4" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo5.jpg" alt="Memory 5" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo6.jpg" alt="Memory 6" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo7.jpg" alt="Memory 7" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo8.jpg" alt="Memory 8" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo9.jpg" alt="Memory 9" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo10.jpg" alt="Memory 10" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo11.jpg" alt="Memory 11" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo12.jpg" alt="Memory 12" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo13.jpg" alt="Memory 13" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo14.jpg" alt="Memory 14" />
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/photo15.jpg" alt="Memory 15" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Final Section -->
+    <section class="final-section">
+      <h2>Eres mi historia favorita ❤️</h2>
+
+      <p>
+        Cada recuerdo contigo se convierte en algo precioso para mí. Este
+        pequeño sitio web es solo un pequeño reflejo de todo lo que siento por
+        ti.
+      </p>
+
+      <div class="big-heart">❤️</div>
+    </section>
+
+    <!-- LIGHTBOX -->
+
+    <div class="lightbox" id="lightbox">
+      <span class="close-lightbox" id="closeLightbox">&times;</span>
+
+      <img class="lightbox-image" id="lightboxImage" />
+    </div>
+
+    <!-- Optional Music -->
+    <audio id="bgMusic" loop>
+      <source src="bajo la luna.mp3" type="audio/mp3" />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
